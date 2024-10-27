@@ -1,0 +1,112 @@
+body {
+	background-color: #C1D8C3;
+	color: rgb(0, 0, 0);
+	font-family:courier;
+	font-weight: lighter;
+
+}
+	
+
+h1 {
+	color: rgb(0, 0, 0 / 1.0);
+    font-family: Oswald;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-transform: uppercase;
+   
+}
+
+h2, h3 {
+	color: #705C53;
+	font-family: Oswald;
+	font-size: 24px;
+	font-weight: bold;
+	
+}
+
+a { 
+    text-decoration: none ;
+    color: #B7B7B7;
+    font-weight: bold;
+    font-family: Oswald;
+
+}
+a:hover {
+	color: black;
+	font-weight: bolder;
+	text-decoration:underline ;
+}
+
+div {
+
+}
+	
+img { 
+	width: 100px;
+	height: 110px;
+}
+	
+.container {
+	width: 600px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
+
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0, 0, 0, 0.3);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+	width: 500px auto;
+}
+.card-white:hover{
+	border: outset;
+}
+.img-circle {
+	border-radius: 50%;
+	box-shadow:0px 5px 15px rgb(0, 0, 0.3);
+}
+.btn-green {
+	background-color: #A5B68D;
+	color: black;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-green:hover {
+    background-color: #705C53;
+	color: white;
+	font-weight: bolder;
+	text-decoration:underline ;
+	}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+#introduction p {
+	margin-bottom: 40px;
+ }
